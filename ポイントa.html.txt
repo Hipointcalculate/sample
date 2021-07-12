@@ -1,0 +1,360 @@
+<html>
+<head>
+<title>TAG index Webサイト</title>
+<meta name="viewport"
+   content="width=320,
+      height=480,
+      initial-scale=1.0,
+      minimum-scale=1.0,
+      maximum-scale=2.0,
+      user-scalable=yes" />
+
+<script type="text/javascript">
+<!--
+
+function keisan(){
+
+	// 設定開始
+
+	// au HS新規
+	var price1 = document.form1.goods1.value * 2.0; // 単価を設定
+	document.form1.field1.value = price1; // 小計を表示
+
+	// au SIM新規
+	var price2 = document.form1.goods2.value * 1.6; // 単価を設定
+	document.form1.field2.value = price2; // 小計を表示
+
+	// au MNP HS（他社）
+	var price3 = document.form1.goods3.value * 4.0; // 単価を設定
+	document.form1.field3.value = price3; // 小計を表示
+
+	// au MNP SIM(他社）
+	var price4 = document.form1.goods4.value * 3.2; // 単価を設定
+	document.form1.field4.value = price4; // 小計を表示
+
+	// au MNP HS（UQ→au）
+	var price5 = document.form1.goods5.value * 2.0; // 単価を設定
+	document.form1.field5.value = price5; // 小計を表示
+
+	// au MNP SIM（UQ→au）
+	var price6 = document.form1.goods6.value * 1.6; // 単価を設定
+	document.form1.field6.value = price6; // 小計を表示
+
+	// au HS機変
+	var price7 = document.form1.goods7.value * 1.6; // 単価を設定
+	document.form1.field7.value = price7; // 小計を表示
+
+	// au manorinoシリーズ（新規＋機変）
+	var price8 = document.form1.goods8.value * 0.2; // 単価を設定
+	document.form1.field8.value = price8; // 小計を表示
+
+	// au 回線付きタブレット（新規＋機変）
+	var price9 = document.form1.goods9.value * 1.0; // 単価を設定
+	document.form1.field9.value = price9; // 小計を表示
+
+	// UQ HS新規
+	var price10 = document.form1.goods10.value * 1.5; // 単価を設定
+	document.form1.field10.value = price10; // 小計を表示
+
+	// UQ SIM新規
+	var price11 = document.form1.goods11.value * 1.2; // 単価を設定
+	document.form1.field11.value = price11; // 小計を表示
+
+	// UQ MNP HS(他社）
+	var price12 = document.form1.goods12.value * 3.0; // 単価を設定
+	document.form1.field12.value = price12; // 小計を表示
+
+	// UQ MNP SIM(他社）
+	var price13 = document.form1.goods13.value * 2.4; // 単価を設定
+	document.form1.field13.value = price13; // 小計を表示
+
+	// UQ MNP HS（au→UQ）
+	var price14 = document.form1.goods14.value * 1.0; // 単価を設定
+	document.form1.field14.value = price14; // 小計を表示
+
+	// UQ MNP SIM（au→UQ）
+	var price15 = document.form1.goods15.value * 0.8; // 単価を設定
+	document.form1.field15.value = price15; // 小計を表示
+
+	// UQ 機変
+	var price16 = document.form1.goods16.value * 1.2; // 単価を設定
+	document.form1.field16.value = price16; // 小計を表示
+
+	// WIMAX
+	var price17 = document.form1.goods17.value * 3.0; // 単価を設定
+	document.form1.field17.value = price17; // 小計を表示
+
+	// 固定商材（auひかり・BIGLOBE光）
+	var price18 = document.form1.goods18.value * 3.0; // 単価を設定
+	document.form1.field18.value = price18; // 小計を表示
+
+	// 固定商材（CATV）
+	var price19 = document.form1.goods19.value * 1.5; // 単価を設定
+	document.form1.field19.value = price19; // 小計を表示
+
+	// Apple care＋（総販同時）
+	var price20 = document.form1.goods20.value * 1.0; // 単価を設定
+	document.form1.field20.value = price20; // 小計を表示
+
+	// 故障紛失サポート（総販同時）
+	var price21 = document.form1.goods21.value * 1.0; // 単価を設定
+	document.form1.field21.value = price21; // 小計を表示
+
+	// 端末保障サービス（総販同時）
+	var price22 = document.form1.goods22.value * 1.0; // 単価を設定
+	document.form1.field22.value = price22; // 小計を表示
+
+	// auでんき
+	var price23 = document.form1.goods23.value * 1.0; // 単価を設定
+	document.form1.field23.value = price23; // 小計を表示
+
+	// UQでんき
+	var price24 = document.form1.goods24.value * 1.0; // 単価を設定
+	document.form1.field24.value = price24; // 小計を表示
+
+	// au payカード
+	var price25 = document.form1.goods25.value * 1.0; // 単価を設定
+	document.form1.field25.value = price25; // 小計を表示
+
+	// 合計を計算
+	var total = price1 + price2 + price3 + price4 + price5 + price6 
++ price7 + price8 + price9 + price10 + price11 + price12 + price13 + price14 
++ price15 + price16 + price17 + price18 + price19 + price20 + price21 + price22 
++ price23 + price24 + price25;
+
+	// 設定終了
+
+
+	document.form1.field_total.value = total; // 合計を表示
+
+}
+
+// --> 
+</script> 
+
+</head>
+<body>
+
+<form action="#" name="form1">
+
+<table>
+<tr>
+<th>契約項目</th>
+<th>ポイント</th>
+<th>件数</th>
+<th>獲得ポイント</th>
+</tr>
+<tr>
+<td>au HS新規</td>
+<td align="right">2.0ポイント</td>
+<td><input type="text" name="goods1" onChange="keisan()">
+</td>
+<td><input type="text" name="field1" size="8" value="0"> ポイント</td>
+</tr>
+
+<tr>
+<td>au SIM新規</td>
+<td align="right">1.6ポイント</td>
+<td><input type="text" name="goods2" onChange="keisan()">
+</td>
+<td><input type="text" name="field2" size="8" value="0"> ポイント</td>
+</tr>
+
+
+<tr>
+<td>au MNP HS（他社） </td>
+<td align="right">4.0ポイント</td>
+<td><input type="text" name="goods3" onChange="keisan()">
+</td>
+<td><input type="text" name="field3" size="8" value="0"> ポイント</td>
+</tr>
+
+<tr>
+<td>au MNP SIM（他社） </td>
+<td align="right">3.2ポイント</td>
+<td><input type="text" name="goods4" onChange="keisan()">
+</td>
+<td><input type="text" name="field4" size="8" value="0"> ポイント</td>
+</tr>
+
+<tr>
+<td>au MNP HS（UQ→au） </td>
+<td align="right">2.0ポイント</td>
+<td><input type="text" name="goods5" onChange="keisan()">
+</td>
+<td><input type="text" name="field5" size="8" value="0"> ポイント</td>
+</tr>
+
+<tr>
+<td>au MNP SIM（UQ→au） </td>
+<td align="right">1.6ポイント</td>
+<td><input type="text" name="goods6" onChange="keisan()">
+</td>
+<td><input type="text" name="field6" size="8" value="0"> ポイント</td>
+</tr>
+
+<tr>
+<td>au HS機変 </td>
+<td align="right">1.6ポイント</td>
+<td><input type="text" name="goods7" onChange="keisan()">
+</td>
+<td><input type="text" name="field7" size="8" value="0"> ポイント</td>
+</tr>
+
+
+<tr>
+<td>au manorinoシリーズ（新規＋機変） </td>
+<td align="right">0.2ポイント</td>
+<td><input type="text" name="goods8" onChange="keisan()">
+</td>
+<td><input type="text" name="field8" size="8" value="0"> ポイント</td>
+</tr>
+
+<tr>
+<td>au 回線付きタブレット（新規＋機変） </td>
+<td align="right">1.0ポイント</td>
+<td><input type="text" name="goods9" onChange="keisan()">
+</td>
+<td><input type="text" name="field9" size="8" value="0"> ポイント</td>
+</tr>
+
+<tr>
+<td>UQ HS新規 </td>
+<td align="right">1.5ポイント</td>
+<td><input type="text" name="goods10" onChange="keisan()">
+</td>
+<td><input type="text" name="field10" size="8" value="0"> ポイント</td>
+</tr>
+
+<tr>
+<td>UQ SIM新規 </td>
+<td align="right">1.2ポイント</td>
+<td><input type="text" name="goods11" onChange="keisan()">
+</td>
+<td><input type="text" name="field11" size="8" value="0"> ポイント</td>
+</tr>
+
+<tr>
+<td>UQ MNP HS(他社）</td>
+<td align="right">3.0ポイント</td>
+<td><input type="text" name="goods12" onChange="keisan()">
+</td>
+<td><input type="text" name="field12" size="8" value="0"> ポイント</td>
+</tr>
+
+<tr>
+<td>UQ MNP SIM(他社）</td>
+<td align="right">2.4ポイント</td>
+<td><input type="text" name="goods13" onChange="keisan()">
+</td>
+<td><input type="text" name="field13" size="8" value="0"> ポイント</td>
+</tr>
+
+<tr>
+<td>UQ MNP HS(au→UQ）</td>
+<td align="right">1.0ポイント</td>
+<td><input type="text" name="goods14" onChange="keisan()">
+</td>
+<td><input type="text" name="field14" size="8" value="0"> ポイント</td>
+</tr>
+
+<tr>
+<td>UQ MNP SIM(au→UQ）</td>
+<td align="right">0.8ポイント</td>
+<td><input type="text" name="goods15" onChange="keisan()">
+</td>
+<td><input type="text" name="field15" size="8" value="0"> ポイント</td>
+</tr>
+
+<tr>
+<td>UQ 機変</td>
+<td align="right">1.2ポイント</td>
+<td><input type="text" name="goods16" onChange="keisan()">
+</td>
+<td><input type="text" name="field16" size="8" value="0"> ポイント</td>
+</tr>
+
+<tr>
+<td>WIMAX</td>
+<td align="right">3.0ポイント</td>
+<td><input type="text" name="goods17" onChange="keisan()">
+</td>
+<td><input type="text" name="field17" size="8" value="0"> ポイント</td>
+</tr>
+
+<tr>
+<td>固定商材（auひかり・BIGLOBE光）</td>
+<td align="right">3.0ポイント</td>
+<td><input type="text" name="goods18" onChange="keisan()">
+</td>
+<td><input type="text" name="field18" size="8" value="0"> ポイント</td>
+</tr>
+
+<tr>
+<td>固定商材（CATV）</td>
+<td align="right">1.5ポイント</td>
+<td><input type="text" name="goods19" onChange="keisan()">
+</td>
+<td><input type="text" name="field19" size="8" value="0"> ポイント</td>
+</tr>
+
+<tr>
+<td>Apple care＋（総販同時）</td>
+<td align="right">1.0ポイント</td>
+<td><input type="text" name="goods20" onChange="keisan()">
+</td>
+<td><input type="text" name="field20" size="8" value="0"> ポイント</td>
+</tr>
+
+<tr>
+<td>故障紛失サポート（総販同時）</td>
+<td align="right">1.0ポイント</td>
+<td><input type="text" name="goods21" onChange="keisan()">
+</td>
+<td><input type="text" name="field21" size="8" value="0"> ポイント</td>
+</tr>
+
+
+<tr>
+<td>端末保障サービス（総販同時）</td>
+<td align="right">1.0ポイント</td>
+<td><input type="text" name="goods22" onChange="keisan()">
+</td>
+<td><input type="text" name="field22" size="8" value="0"> ポイント</td>
+</tr>
+
+<tr>
+<td>auでんき</td>
+<td align="right">1.0ポイント</td>
+<td><input type="text" name="goods23" onChange="keisan()">
+</td>
+<td><input type="text" name="field23" size="8" value="0"> ポイント</td>
+</tr>
+
+<tr>
+<td>UQでんき</td>
+<td align="right">1.0ポイント</td>
+<td><input type="text" name="goods24" onChange="keisan()">
+</td>
+<td><input type="text" name="field24" size="8" value="0"> ポイント</td>
+</tr>
+
+<tr>
+<td>au payカード</td>
+<td align="right">1.0ポイント</td>
+<td><input type="text" name="goods25" onChange="keisan()">
+</td>
+<td><input type="text" name="field25" size="8" value="0"> ポイント</td>
+</tr>
+
+
+<tr>
+<td align="right" colspan="3"><strong>合計</strong></td>
+<td><input type="text" name="field_total" size="8" value="0"> ポイント</td>
+</tr>
+</table>
+
+</form>
+
+</body>
+</html>
